@@ -17,7 +17,7 @@
 
 **Utilities.ahk** adds some handy functionality, and streamlines a few tasks that I do a lot.
 
-ctrl + spacebar: toggle "always on top" for selected window - handy for copying notes from a small window while using a fullscreen application, for example.
+* ctrl + spacebar: toggle "always on top" for selected window - handy for copying notes from a small window while using a fullscreen application, for example.
 * win + rightclick: opens a Powershell window in the directory in which you click, eliminating the need to type cd pathname. The implementation of this command is particular to how I have my context menu set up, so it wouldn't work on some machines without modification. 
 * win + N: creates a new text document in the directory in which you click. same implementation as above. 
 * printscreen key: sends "win key" command. I haven't used this key since win+shift+S was added in Windows 10, so I set it to be a right-side window key since my laptop only has a left one.
