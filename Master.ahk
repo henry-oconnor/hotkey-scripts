@@ -4,6 +4,6 @@ SendMode Input  ; Recommended for new scripts due to its superior speed and reli
 SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
 #SingleInstance ignore
 
-#F1:: Run Media.exe
+#F1:: Run Media.ahk
 #F2:: Run Utilities.ahk
 #F3:: Run sc2hotkeys.ahk
