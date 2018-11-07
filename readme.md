@@ -1,4 +1,4 @@
-#Personal hotkey mods
+# Personal hotkey mods
 
 **Master.ahk** allows you to run and exit the other three scripts with hotkeys.
 	win + F1: toggle Media.ahk
