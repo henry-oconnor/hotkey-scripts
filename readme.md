@@ -5,7 +5,7 @@
 	win + F2: toggle Utilities.ahk
 	win + F3: toggle SC2Hotkeys.ahk
 
-**Media.ahk** puts basic media controls on the mouse (provided you have two thumb buttons), and adds some controls to the keyboard as well:	
+**Media.ahk** puts basic media controls on the mouse (provided you have two thumb buttons), and adds some controls to the keyboard as well.	
 	thumbBtn1 + wheelUp: increase volume
 	thumbBtn1 + wheelDn: decrease volume
 	thumbBtn1 + wheelClck: send spacebar command (pauses most media players)
