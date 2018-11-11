@@ -8,7 +8,9 @@
 **Media.ahk** puts basic media controls on the mouse (provided you have two thumb buttons), and adds some controls to the keyboard as well.	
 * thumbBtn1 + wheelUp: increase volume
 * thumbBtn1 + wheelDn: decrease volume
-* thumbBtn1 + wheelClck: send spacebar command (pauses most media players)
+* thumbBtn1 + wheelClck: send spacebar command, pauses most media players
+* thumbBtn2 + WheelDn: sends alt+left, for navigating back in browser
+* thumbBtn2 + WheelUp: sends alt+right, for navigating forward in browser
 * ctrl + arrowKeyLeft: previous track
 * ctrl + arrowKeyLeft: next track
 * ctrl + arrowKeyLeft: pause/play track
