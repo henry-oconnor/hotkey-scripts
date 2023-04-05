@@ -5,29 +5,20 @@ SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
 
 #SingleInstance ignore
 
+CapsLock::Control
 
 ^SPACE::  Winset, Alwaysontop, , A
 
-#n::
-SendInput {RButton}, {raw}wt
-return
-
-#RButton::
-SendInput {LButton}
-SendInput {Shift down}{RButton}{Shift up}
-Send {Sleep 5}
-SendInput {raw}ss
-Send {Sleep 5}
-SendInput {Enter}
-
-return
-
-#!RButton::
-
+;;;;;;;; Change cursor speed I think?
 #!j::DllCall("SystemParametersInfo", Int,113, Int,0, UInt,16, Int,2)
 #!k::DllCall("SystemParametersInfo", Int,113, Int,0, UInt,20, Int,2)
 
 $PrintScreen::RWin
+
+!i::Send, {Up}
+!j::Send, {Left}
+!k::Send, {Down}
+!l::Send, {Right}
 
 #!F2::
 ExitApp
